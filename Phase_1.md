@@ -1,22 +1,23 @@
 # Phase 1 – System Understanding and Conceptual Design
 
 ## Executive Summary
-  This report documents a valve-train system (Unicam-style overhead cam) with the goal of demonstrating how the system f..
+  We have chosen a Valve Train system assembly as our mechaincal system for this project. 
 
 ## System Function and Decomposition
-  Overall function: Convert crankshaft rotation into precisely phased valve motion (lift, dwell, and seating) to control cylinder air exchange (intake and exhaust) during the four-stroke combustion cycle.
+  Overall function: Convert crankshaft rotation into precisely phased valve motion (lift, dwell, and seating) to control cylinder air exchange (intake and exhaust) during the four-stroke combustion cycle. 13,000RPPM
 
-<p align="center">
+<div style="text-align: center;">
   <img src="figures/Assembled_Arrows.png" width="400">
-</p>
+</div>
 
-<p align="center">
+<div style="text-align: center;">
   <img src="figures/Exploded_Valves_Arrows.png" width="600">
-</p>
+</div>
 
-<p align="center">
+<div style="text-align: center;">
   <img src="figures/Valve_Assembled_Arrows.png" width="500">
-</p>
+</div>
+
 
 ## Componenet Breakdown
 | Component | Image |
