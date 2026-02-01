@@ -8,7 +8,6 @@
 
 <p align="center">
   <img src="figures/Assembled_Arrows.png" width="400">
-  *Figure 1: Layout of the CRF250R Unicam valvetrain.*
 </p>
 <p align="center">
   <img src="figures/Exploded_Valves_Arrows.png" width="500">
