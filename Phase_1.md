@@ -7,7 +7,7 @@ In this specific system, a single camshaft operates directly on the intake valve
 
 ### Four-Stroke Engine Overview
 
-A four-stroke engine completes a power cycle in four distinct strokes of the piston: intake, compression, power, and exhaust.  
+A four-stroke engine completes a power cycle in four distinct strokes of the piston: intake, compression, combustion, and exhaust.
 
 1. **Intake Stroke:** The intake valve opens, and the piston moves down the cylinder, drawing in the air-fuel mixture.  
 2. **Compression Stroke:** Both valves are closed, and the piston moves up, compressing the mixture to increase pressure and temperature for efficient combustion.  
