@@ -9,9 +9,11 @@
 <p align="center">
   <img src="figures/Assembled_Arrows.png" width="400">
 </p>
+
 <p align="center">
   <img src="figures/Exploded_Valves_Arrows.png" width="600">
 </p>
+
 <p align="center">
   <img src="figures/Valve_Assembled_Arrows.png" width="500">
 </p>
