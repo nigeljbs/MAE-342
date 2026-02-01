@@ -3,7 +3,7 @@
 ## Executive Summary
   This report documents a valve-train system (Unicam-style overhead cam) with the goal of demonstrating how the system f..
 
-## System Functioning and Decomposition
+## System Function and Decomposition
   Overall function: Convert crankshaft rotation into precisely phased valve motion (lift, dwell, and seating) to control cylinder air exchange (intake and exhaust) during the four-stroke combustion cycle.
 
 <p align="center">
