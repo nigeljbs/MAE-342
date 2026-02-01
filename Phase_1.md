@@ -75,7 +75,9 @@ Over long periods, cyclic loading of the valve springs can lead to fatigue and e
 
 **Mitigation:** Use springs with improved cyclic loading properties or replace/repair springs routinely.  
 
-**Figure:** #  
+**Figure:** <p align="center">
+  <img src="figures/Spring_Failure.png" width="500">
+</p>
 
 ---
 
