@@ -118,5 +118,32 @@ Continuous motion and contact between valvetrain components causes material wear
 
 
 ## Critical Design Parameters
-Geometry that controls motion:
-Cam lobe geometry (intake and exhaust lobes): base circle, max lift, duration, ramp shape
+
+### Geometry that Controls Motion
+- **Cam lobe geometry** (intake and exhaust lobes): base circle, max lift, duration, ramp shape  
+  - Drives: valve lift curve, peak acceleration, contact loading
+- **Rocker geometry and rocker ratio** (exhaust): pivot location, lever arms, pad radii  
+  - Drives: exhaust lift scaling, bending stress, contact stress at tip
+- **Valve geometry and spacing**: stem diameter and length, head diameter, valve angles, center spacing  
+  - Drives: packaging, valve mass and inertia, alignment and side loading  
+
+> These measurements are vital to ensure proper scale and that all components fit together without interference.
+
+### Spring and Dynamic Inputs (for Failure Analysis)
+- **Spring specs**: rate (k), preload, installed height, max compression, coil-bind margin  
+  - Drives: seating force, valve-float margin, peak forces on 3D printed parts
+- **Operating speed and moving mass**: target cam speed and RPM, follower, rocker, and valve effective mass  
+  - Drives: inertia loads (F=ma), fatigue-like cycling risk  
+
+> These specifications are needed to perform proper analysis on the model.
+
+### Print-Driven Design Constraints
+- **Print material and process**: resin printing or traditional printing, filament type, wall thickness, infill, minimum feature size  
+  - Drives: part strength, failure due to layer lines, creep, relaxation, durability
+- **Critical fits and clearances**: valve lash, stem-guide clearance, rocker pivot clearance, cam bore and bearing fits  
+  - Drives: binding vs. impact loads, timing accuracy, wear rate
+- **Packaging and clearance envelope**: full-motion interference check across max lift and rocker sweep  
+  - Drives: collision prevention and assembly feasibility  
+
+> These constraints ensure that printed parts fit together and function as modeled without assembly issues.
+
