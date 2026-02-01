@@ -14,7 +14,10 @@ A four-stroke engine completes a power cycle in four distinct strokes of the pis
 3. **Power Stroke:** The spark plug ignites the compressed mixture, forcing the piston downward and generating torque on the crankshaft.  
 4. **Exhaust Stroke:** The exhaust valve opens, and the piston moves up again, expelling the spent gases from the cylinder.  
 
-This cycle repeats for each cylinder, with the camshaft coordinating valve opening and closing so that intake and exhaust events occur at the correct crank angles. In multi-cylinder engines, the strokes are staggered to ensure smooth power delivery. The valvetrain plays a critical role in maintaining timing and valve motion, directly affecting engine efficiency, performance, and reliability, especially at high speeds like 13,000 RPM.
+This cycle repeats for each cylinder, with the camshaft coordinating valve opening and closing so that intake and exhaust events occur at the correct crank angles. In multi-cylinder engines, the strokes are staggered to ensure smooth power delivery. 
+<p align="center">
+  <img src="figures/4StrokeEngine_Ortho_3D.gif" width="300">
+</p>
 
 ---
 
