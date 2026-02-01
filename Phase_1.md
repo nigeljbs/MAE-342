@@ -26,6 +26,14 @@ This cycle repeats for each cylinder, with the camshaft coordinating valve openi
 
 This precise timing is critical at high engine speeds, where even slight deviations can reduce volumetric efficiency, cause valve float, or create interference with piston motion. The Unicam design allows a single camshaft to directly actuate the intake valves while using a rocker arm to drive the exhaust valves, reducing moving mass and inertia in the system. By controlling lift profiles, dwell periods, and seating forces, the system maintains engine performance, durability, and efficiency across the full operating range, including extremely high RPMs, upwards of 13,000RPM, while minimizing wear and the risk of component failure.
 
+The images below show a CRF250 cylinder head with arrows identifying the key components of the valvetrain.  
+
+- The first image shows the fully assembled cylinder head, illustrating how the camshaft, valves, rocker arms, and other components fit together in the system.  
+- The second image shows the disassembled valves, including valve springs, valve buckets, and guides, as well as the rocker.  
+- The third image focuses on the assembled valves and their associated components, showing the direct contact points between the cam, rocker, and valves.  
+
+These visual aids help to understand the layout and interactions of the components, as well as the paths of motion through the valvetrain during operation.
+
 
 <p align="center"> 
   <img src="figures/Assembled_Arrows.png" width="400"> 
