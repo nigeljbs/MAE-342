@@ -25,4 +25,4 @@ The valve bucket sits between the cam lobe and valve stem, transmitting cam moti
 | **Timing Chain**  
 The timing chain synchronizes camshaft and crankshaft motion, using guides and a tensioner to maintain proper chain tension and reduce vibration. | <img src="figures/Cam_Chain.png" width="160"> |
 | **Camshaft Bearings**  
-Camshaft bearings support the camshaft and transfer loads to the cylinder head, reducing friction and ensuring smooth rotation at high engine speeds. | <img src="figures/Camshaft_Bearing.png" width="160"> |
+Camshaft bearings support the camshaft and transfer loads to the cylinder head, reducing friction and ensuring smooth rotation at high engine speeds. | <img src="figures/Cam_Bearing.png" width="160"> |
