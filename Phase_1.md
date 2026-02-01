@@ -5,6 +5,17 @@ This report examines how a Unicam-style overhead cam valve train system works, i
 
 In this specific system, a single camshaft operates directly on the intake valves while using a rocker to actuate the exhaust valves, allowing for precise valve timing with fewer moving parts. This design reduces inertia in the valvetrain, helping prevent valve float at high engine speeds and improving overall engine efficiency.
 
+### Four-Stroke Engine Overview
+
+A four-stroke engine completes a power cycle in four distinct strokes of the piston: intake, compression, power, and exhaust.  
+
+1. **Intake Stroke:** The intake valve opens, and the piston moves down the cylinder, drawing in the air-fuel mixture.  
+2. **Compression Stroke:** Both valves are closed, and the piston moves up, compressing the mixture to increase pressure and temperature for efficient combustion.  
+3. **Power Stroke:** The spark plug ignites the compressed mixture, forcing the piston downward and generating torque on the crankshaft.  
+4. **Exhaust Stroke:** The exhaust valve opens, and the piston moves up again, expelling the spent gases from the cylinder.  
+
+This cycle repeats for each cylinder, with the camshaft coordinating valve opening and closing so that intake and exhaust events occur at the correct crank angles. In multi-cylinder engines, the strokes are staggered to ensure smooth power delivery. The valvetrain plays a critical role in maintaining timing and valve motion, directly affecting engine efficiency, performance, and reliability, especially at high speeds like 13,000 RPM.
+
 ---
 
 ## System Function and Decomposition
