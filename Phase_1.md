@@ -47,33 +47,17 @@ Kinematics describes how rotational input at the crankshaft produces cam motion 
 
 ### Camshaft Speed Relationship (Four-Stroke)
 
-The camshaft rotates at half the crankshaft speed:
-
-\[
-\omega_\text{cam} = 0.5 \cdot \omega_\text{crank}
-\]
-
-This is achieved via the timing drive (sprocket tooth ratio or gear ratio), so the cam completes one revolution per 720° of crank rotation. If the sprocket teeth are known, the ratio can be expressed as:
-
-\[
-\frac{\omega_\text{cam}}{\omega_\text{crank}} = \frac{N_\text{crank}}{N_\text{cam}}
-\]
+The camshaft rotates at half the crankshaft speed: `omega_cam = 0.5 * omega_crank`.  
+This is achieved via the timing drive (sprocket tooth ratio or gear ratio), so the cam completes one revolution per 720° of crank rotation. If the sprocket teeth are known, the ratio can be expressed as: `omega_cam / omega_crank = N_crank / N_cam`.
 
 ### Valve Lift
 
 Valve lift is determined by cam lobe geometry and the follower/rocker mechanism:
 
-- **Direct-acting follower:**  
-\[
-L_\text{valve} \approx L_\text{cam}
-\]
+- **Direct-acting follower:** `L_valve ≈ L_cam`  
+- **Rocker-actuated valve:** `L_valve ≈ R * L_cam`, where `R = (rocker output lever) / (input lever)`
 
-- **Rocker-actuated valve:**  
-\[
-L_\text{valve} \approx R \cdot L_\text{cam}, \quad R = \frac{\text{rocker output lever}}{\text{input lever}}
-\]
-
-> For Phase 2, peak valve acceleration and spring force checks may also be required. A simple approach is to compute follower displacement from the cam profile, then differentiate to get velocity and acceleration versus cam angle.
+> Note: For Phase 2, peak valve acceleration and spring force checks may also be required. A simple approach is to compute follower displacement from the cam profile, then differentiate to get velocity and acceleration versus cam angle.
 
 ### Key Kinematic Checks
 
