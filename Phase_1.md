@@ -76,6 +76,27 @@ Support the camshaft and transfer loads to the cylinder head, reducing friction 
 ## Kinematics
 Kinematics describes how rotational input at the crankshaft produces cam motion and valve lift. For a four-stroke engine, each cylinder completes one intake and one exhaust event every two crank revolutions.
 
+### Cam Profile and Follower Motion
+
+The cam profile defines the motion of the valve over time, controlling lift, dwell, and seating. The follower (direct-acting or rocker-actuated) translates the cam lobe's rotation into linear valve motion.  
+
+Key points:  
+- The **base circle** represents the minimum lift of the valve.  
+- The **rise segment** determines how quickly the valve opens.  
+- The **dwell** at peak lift ensures maximum air-fuel flow or exhaust clearance.  
+- The **fall segment** controls valve closing.  
+
+The follower can be a **flat tappet, roller, or bucket type**, and its motion may be scaled by a rocker ratio if the cam drives a rocker arm.  
+
+**Figure:** Cam profile vs. follower displacement  
+
+<p align="center">
+  <img src="figures/Cam_Profile_Follower.png" width="500">
+</p>
+
+> The graph shows cam rotation on the x-axis (degrees of crankshaft or camshaft) and valve displacement on the y-axis. Notice the smooth rise and fall segments, as well as the dwell at maximum lift.
+
+
 ### Camshaft Speed Relationship (Four-Stroke)
 The camshaft rotates at half the crankshaft speed: `omega_cam = 0.5 * omega_crank`.  
 This is achieved via the timing drive (sprocket tooth ratio or gear ratio), so the cam completes one revolution per 720° of crank rotation. If the sprocket teeth are known, the ratio can be expressed as: `omega_cam / omega_crank = N_crank / N_cam`.
