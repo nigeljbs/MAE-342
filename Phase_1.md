@@ -115,22 +115,7 @@ Continuous motion and contact between valvetrain components causes material wear
 <p align="center">
   <img src="figures/Genreal_Wear.png" width="300">
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
 ## Critical Design Parameters
 
 ### Geometry that Controls Motion
