@@ -1,10 +1,23 @@
 # Phase 1 – System Understanding and Conceptual Design
+
+## Executive Summary
+  This report documents a valve-train system (Unicam-style overhead cam) with the goal of demonstrating how the system f..
+
+## System Functioning and Decomposition
+  Overall function: Convert crankshaft rotation into precisely phased valve motion (lift, dwell, and seating) to control cylinder air exchange (intake and exhaust) during the four-stroke combustion cycle.
+
 <p align="center">
   <img src="figures/Assembled_Arrows.png" width="500">
+  *Figure 1: Layout of the CRF250R Unicam valvetrain.*
+</p>
+<p align="center">
+  <img src="figures/Exploded_Valves_Arrows.png" width="500">
+</p>
+<p align="center">
+  <img src="figures/Valve_Assembled_Arrows.png" width="500">
 </p>
 
-
-*Figure 1: Layout of the CRF250R Unicam valvetrain.*
+## Componenet Breakdown
 | Component | Image |
 |----------|--------|
 | **Cylinder Head**  
@@ -26,3 +39,12 @@ The timing chain synchronizes camshaft and crankshaft motion, using guides and a
 | **Camshaft Bearings**  
 Camshaft bearings support the camshaft and transfer loads to the cylinder head, reducing friction and ensuring smooth rotation at high engine speeds. | <img src="figures/Cam_Bearing.png" width="160"> |
 
+## Kinematics
+Kinematics describes how rotational input at the crankshaft produces cam motion and valve lift. For a four-stroke engine, each cylinder completes one intake and one exhaust event every two crank revolutions.
+
+## Preliminary Failure Mode Review
+Spring Fatigue - Over long periods, cyclic loading of the valve springs can lead to fatigue and eventual failure, reducing their ability to properly control the valves. In some cases, this spring failure leads to gear wear and may cause the timing system to jump a tooth, misaligning the camshaft relative to the pistons’ motion. Spring fatigue can be avoided by using springs with improved cyclic loading properties or by repairing or replacing springs more routinely.
+
+## Critical Design Parameters
+Geometry that controls motion:
+Cam lobe geometry (intake and exhaust lobes): base circle, max lift, duration, ramp shape
