@@ -1,5 +1,4 @@
-
-## <p align="center">
+<p align="center">
   <img src="figures/Logo.png" width="300">
 </p>
 
