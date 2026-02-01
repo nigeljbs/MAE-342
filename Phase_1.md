@@ -42,7 +42,47 @@ The timing chain synchronizes camshaft and crankshaft motion, using guides and a
 Camshaft bearings support the camshaft and transfer loads to the cylinder head, reducing friction and ensuring smooth rotation at high engine speeds. | <img src="figures/Cam_Bearing.png" width="160"> |
 
 ## Kinematics
-Kinematics describes how rotational input at the crankshaft produces cam motion and valve lift. For a four-stroke engine, each cylinder completes one intake and one exhaust event every two crank revolutions.
+
+Kinematics describes how rotational input at the crankshaft produces cam motion and valve lift. For a four-stroke engine, each cylinder completes one intake and one exhaust event every two crank revolutions.  
+
+### Camshaft Speed Relationship (Four-Stroke)
+
+The camshaft rotates at half the crankshaft speed:
+
+\[
+\omega_\text{cam} = 0.5 \cdot \omega_\text{crank}
+\]
+
+This is achieved via the timing drive (sprocket tooth ratio or gear ratio), so the cam completes one revolution per 720° of crank rotation. If the sprocket teeth are known, the ratio can be expressed as:
+
+\[
+\frac{\omega_\text{cam}}{\omega_\text{crank}} = \frac{N_\text{crank}}{N_\text{cam}}
+\]
+
+### Valve Lift
+
+Valve lift is determined by cam lobe geometry and the follower/rocker mechanism:
+
+- **Direct-acting follower:**  
+\[
+L_\text{valve} \approx L_\text{cam}
+\]
+
+- **Rocker-actuated valve:**  
+\[
+L_\text{valve} \approx R \cdot L_\text{cam}, \quad R = \frac{\text{rocker output lever}}{\text{input lever}}
+\]
+
+> For Phase 2, peak valve acceleration and spring force checks may also be required. A simple approach is to compute follower displacement from the cam profile, then differentiate to get velocity and acceleration versus cam angle.
+
+### Key Kinematic Checks
+
+- Confirm timing: intake opens/closes, and exhaust opens/closes at intended crank angles.  
+- Ensure maximum valve lift meets flow requirements without coil bind or retainer/guide interference.  
+- Check valve-to-piston clearance at overlap and near TDC on compression.  
+- Evaluate valve float risk at target RPM (based on spring rate, mass, and acceleration).  
+- Confirm lash (clearance) range accounts for thermal growth and wear.
+
 
 ## Preliminary Failure Mode Review
 Spring Fatigue - Over long periods, cyclic loading of the valve springs can lead to fatigue and eventual failure, reducing their ability to properly control the valves. In some cases, this spring failure leads to gear wear and may cause the timing system to jump a tooth, misaligning the camshaft relative to the pistons’ motion. Spring fatigue can be avoided by using springs with improved cyclic loading properties or by repairing or replacing springs more routinely.
