@@ -113,7 +113,7 @@ Continuous motion and contact between valvetrain components causes material wear
 
 **Figure:**
 <p align="center">
-  <img src="figures/General_Wear.png" width="300">
+  <img src="figures/Genreal_Wear.png" width="300">
 </p>
 
 
