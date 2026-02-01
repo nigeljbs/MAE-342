@@ -1,3 +1,5 @@
 # MAE 342 – Scaled Unicam Valvetrain
 Phase 1 – System Understanding and Conceptual Design
-!(figures/Camshaft.png)
+![Unicam Valvetrain Overview](figures/Assembled_Arrows.png)
+
+*Figure 1: Layout of the CRF250R Unicam valvetrain.*
