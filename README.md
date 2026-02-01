@@ -6,6 +6,7 @@
 1. [Phase 1: System Understanding & Conceptual Design](Phase_1.md)
 2. [Phase 2: Detailed CAD Design & Engineering Analysis](Phase_2.md)
 3. [Phase 3: Prototyping, Testing & Reflection](Phase_3.md)
+4. [References](References.md)
 
 *Please view all reports in a Light Theme*
 
