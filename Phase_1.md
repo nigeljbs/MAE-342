@@ -7,7 +7,7 @@
   Overall function: Convert crankshaft rotation into precisely phased valve motion (lift, dwell, and seating) to control cylinder air exchange (intake and exhaust) during the four-stroke combustion cycle.
 
 <p align="center">
-  <img src="figures/Assembled_Arrows.png" width="500">
+  <img src="figures/Assembled_Arrows.png" width="400">
   *Figure 1: Layout of the CRF250R Unicam valvetrain.*
 </p>
 <p align="center">
