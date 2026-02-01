@@ -88,13 +88,9 @@ Key points:
 
 The follower can be a **flat tappet, roller, or bucket type**, and its motion may be scaled by a rocker ratio if the cam drives a rocker arm.  
 
-**Figure:** Cam profile vs. follower displacement  
-
 <p align="center">
   <img src="figures/cam-nomenclature.jpg" width="500">
 </p>
-
-> The graph shows cam rotation on the x-axis (degrees of crankshaft or camshaft) and valve displacement on the y-axis. Notice the smooth rise and fall segments, as well as the dwell at maximum lift.
 
 
 ### Camshaft Speed Relationship (Four-Stroke)
