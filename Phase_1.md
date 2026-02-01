@@ -8,7 +8,10 @@ In this specific system, a single camshaft operates directly on the intake valve
 ---
 
 ## System Function and Decomposition
-**Overall function:** Convert crankshaft rotation into precisely phased valve motion (lift, dwell, and seating) to control cylinder air exchange (intake and exhaust) during the four-stroke combustion cycle at 13,000 RPM.
+**Overall function:** Convert crankshaft rotation into precisely phased valve motion (lift, dwell, and seating) to control cylinder air exchange (intake and exhaust) during the four-stroke combustion cycle at 13,000 RPM. The valvetrain ensures that intake valves open at the correct moment to admit the optimal air-fuel mixture and close in time to maximize compression efficiency. Simultaneously, exhaust valves open to release combustion gases efficiently, minimizing residual heat and preventing backflow.  
+
+This precise timing is critical at high engine speeds, where even slight deviations can reduce volumetric efficiency, cause valve float, or create interference with piston motion. The Unicam design allows a single camshaft to directly actuate the intake valves while using a rocker arm to drive the exhaust valves, reducing moving mass and inertia in the system. By controlling lift profiles, dwell periods, and seating forces, the system maintains engine performance, durability, and efficiency across the full operating range, including extreme RPMs like 13,000, while minimizing wear and the risk of component failure.
+
 
 <p align="center"> 
   <img src="figures/Assembled_Arrows.png" width="400"> 
