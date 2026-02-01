@@ -11,7 +11,7 @@ A four-stroke engine completes a power cycle in four distinct strokes of the pis
 
 1. **Intake Stroke:** The intake valve opens, and the piston moves down the cylinder, drawing in the air-fuel mixture.  
 2. **Compression Stroke:** Both valves are closed, and the piston moves up, compressing the mixture to increase pressure and temperature for efficient combustion.  
-3. **Power Stroke:** The spark plug ignites the compressed mixture, forcing the piston downward and generating torque on the crankshaft.  
+3. **Combustion Stroke:** The spark plug ignites the compressed mixture, forcing the piston downward and generating torque on the crankshaft.  
 4. **Exhaust Stroke:** The exhaust valve opens, and the piston moves up again, expelling the spent gases from the cylinder.  
 
 This cycle repeats for each cylinder, with the camshaft coordinating valve opening and closing so that intake and exhaust events occur at the correct crank angles. In multi-cylinder engines, the strokes are staggered to ensure smooth power delivery. 
