@@ -1,4 +1,4 @@
-# MAE 342 – Scaled Unicam Valvetrain
+# MAE 342 – Unicam Valvetrain
 Phase 1 – System Understanding and Conceptual Design
 ![Unicam Valvetrain Overview](figures/Assembled_Arrows.png)
 
