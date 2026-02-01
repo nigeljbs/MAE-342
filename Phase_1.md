@@ -51,7 +51,7 @@ These visual aids help to understand the layout and interactions of the componen
 
 ## Component Breakdown
 | Component | Image |
-|----------|--------|
+|:----------|:--------|
 | **Cylinder Head**  
 This component provides the structural support and alignment for the camshaft bearings, valve guides, and rocker arm pivots. | <img src="figures/Cylinder_Head.png" width="160"> |
 | **Camshaft**  
