@@ -1,7 +1,7 @@
 # Phase 1 – System Understanding and Conceptual Design
 
 ## Executive Summary
-  This report examines how a Unicam stlye overhead cam valve train system works, its key componenets and its potential failure points. The valevtrain is a critcal component in a four-stroke engine assembly, as it controls the timing and motion of the intake and exhaust valves, which regulates the the air-fule mixture entering the combustion chamber and the exhaust gases leaving. The Unicam® system is registered trademark of Honda Motor Co. Ltd. and combines the best characteristice of single overhead cam (SOHC) and double overhead cam (DOHC). 
+  This report examines how a Unicam stlye overhead cam valve train system works, its key componenets and its potential failure points. The valevtrain is a critcal component in a four-stroke engine assembly, as it controls the timing and motion of the intake and exhaust valves. The valves regulate the the air-fule mixture entering the combustion chamber and the exhaust gases leaving. The intake valves are actuated directly by the camshaft, while the exhaust valves are actuated via a rocker that is in contact with the camshaft. This specific style of valvetrain is called a Unicam, and is a registered trademark of Honda Motor Co. Ltd. and combines the best characteristice of single overhead cam (SOHC) and double overhead cam (DOHC). 
 
 ## System Function and Decomposition
   Overall function: Convert crankshaft rotation into precisely phased valve motion (lift, dwell, and seating) to control cylinder air exchange (intake and exhaust) during the four-stroke combustion cycle. 13,000RPPM
@@ -114,7 +114,7 @@ Continuous motion and contact between valvetrain components causes material wear
 **Figure:**
 <p align="center">
   <img src="figures/Genreal_Wear.png" width="300">
-</p> <br>
+</p> 
 
 ## Critical Design Parameters
 
