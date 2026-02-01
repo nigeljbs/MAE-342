@@ -6,17 +6,17 @@
 ## System Function and Decomposition
   Overall function: Convert crankshaft rotation into precisely phased valve motion (lift, dwell, and seating) to control cylinder air exchange (intake and exhaust) during the four-stroke combustion cycle. 13,000RPPM
 
-<div style="text-align: center;">
-  <img src="figures/Assembled_Arrows.png" width="400">
-</div>
+<p align="center"> 
+  <img src="figures/Assembled_Arrows.png" width="400"> 
+</p>
 
-<div style="text-align: center;">
+<p align="center">
   <img src="figures/Exploded_Valves_Arrows.png" width="600">
-</div>
+</p>
 
-<div style="text-align: center;">
+<p align="center">
   <img src="figures/Valve_Assembled_Arrows.png" width="500">
-</div>
+</p>
 
 
 ## Componenet Breakdown
