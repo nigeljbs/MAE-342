@@ -10,5 +10,6 @@
 Please view all reports in a Light Theme
 
 <p align="center">
+  4-Stroke Engine Cycle
   <img src="figures/4StrokeEngine_Ortho_3D.gif" width="300">
 </p>
