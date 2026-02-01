@@ -1,5 +1,5 @@
-# Valvetrain
-<p align="left">
+
+## <p align="left">
   <img src="figures/Logo.png" width="500">
 </p>
 ## Table of Contents
