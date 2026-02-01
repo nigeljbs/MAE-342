@@ -24,7 +24,7 @@ This cycle repeats for each cylinder, with the camshaft coordinating valve openi
 ## System Function and Decomposition
 **Overall function:** Convert crankshaft rotation into precisely phased valve motion (lift, dwell, and seating) to control cylinder air exchange (intake and exhaust) during the four-stroke combustion cycle. The valvetrain ensures that intake valves open at the correct moment to admit the optimal air-fuel mixture and close in time to maximize compression efficiency. Simultaneously, exhaust valves open to release combustion gases efficiently, minimizing residual heat and preventing backflow.  
 
-This precise timing is critical at high engine speeds, where even slight deviations can reduce volumetric efficiency, cause valve float, or create interference with piston motion. The Unicam design allows a single camshaft to directly actuate the intake valves while using a rocker arm to drive the exhaust valves, reducing moving mass and inertia in the system. By controlling lift profiles, dwell periods, and seating forces, the system maintains engine performance, durability, and efficiency across the full operating range, including extremely high RPMs, upwards of 13,000RPM, while minimizing wear and the risk of component failure.
+This precise timing is critical at high engine speeds, where even slight deviations can reduce volumetric efficiency, cause valve float, or create interference with piston motion. The Unicam design allows a single camshaft to directly actuate the intake valves while using a rocker arm to drive the exhaust valves, reducing moving mass and inertia in the system. By controlling lift profiles, dwell periods, and seating forces, the system maintains engine performance, durability, and efficiency across the full operating range, including operating speeds up to 13,000 RPM, while minimizing wear and the risk of component failure.
 
 The images below show a CRF250 cylinder head with arrows identifying the key components of the valvetrain.  
 
@@ -79,6 +79,7 @@ Kinematics describes how rotational input at the crankshaft produces cam motion 
 ### Camshaft Speed Relationship (Four-Stroke)
 The camshaft rotates at half the crankshaft speed: `omega_cam = 0.5 * omega_crank`.  
 This is achieved via the timing drive (sprocket tooth ratio or gear ratio), so the cam completes one revolution per 720° of crank rotation. If the sprocket teeth are known, the ratio can be expressed as: `omega_cam / omega_crank = N_crank / N_cam`.
+Where N = Number of teeth
 
 ### Valve Lift
 Valve lift is determined by cam lobe geometry and the follower/rocker mechanism:
