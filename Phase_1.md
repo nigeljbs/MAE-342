@@ -5,7 +5,7 @@
 
 
 *Figure 1: Layout of the CRF250R Unicam valvetrain.*
-
+| Component | Visual |
 |----------|--------|
 | **Cylinder Head**  
 This component provides the structural support and alignment for the camshaft bearings, valve guides, and rocker arm pivots. | <img src="figures/Cylinder_Head.png" width="160"> |
