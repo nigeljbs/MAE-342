@@ -9,13 +9,3 @@
 4. [References](References.md)
 
 *Please view all reports in a Light Theme*
-
-
-## 4-Stroke Engine Cycle
-1. Intake
-2. Compression
-3. Combustion
-4. Exhaust
-<p align="center">
-  <img src="figures/4StrokeEngine_Ortho_3D.gif" width="300">
-</p>
