@@ -135,13 +135,13 @@ Occurs when valve springs cannot close the valve fast enough at high RPMs, causi
   <img src="figures/Valve_Float.png" width="300">
 </p>
 
-### Thermal Expansion
-Heat from combustion and friction causes parts to expand/contract, altering clearances. Can prevent proper valve seating and increase wear.  
+### Cam–Follower Contact Wear (Pitting / Scuffing)
+High contact stresses between the cam lobe and follower or rocker interface can lead to surface fatigue, pitting, or scuffing, especially under inadequate lubrication or high spring loads. This wear alters the cam profile over time, reducing effective valve lift and changing valve timing. In severe cases, material loss can accelerate further wear and lead to catastrophic valvetrain failure.  
 
-**Mitigation:** Use materials with low or matched thermal expansion.  
+**Mitigation:** Use proper surface hardening (e.g., nitriding or carburizing), ensure adequate lubrication, and limit contact stresses through appropriate spring rates and follower geometry.  
 
 <p align="center">
-  <img src="figures/Cracked_Block.png" width="300">
+  <img src="figures/Cam_Wear.jpg" width="300">
 </p>
 
 ### General Wear
@@ -152,6 +152,7 @@ Continuous motion and contact cause material wear, degrading valve profiles and 
 <p align="center">
   <img src="figures/Genreal_Wear.png" width="300">
 </p>
+
 
 ---
 
