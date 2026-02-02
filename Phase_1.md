@@ -185,3 +185,49 @@ Continuous motion and contact cause material wear, degrading valve profiles and 
   - Drives: collision prevention, assembly feasibility  
 
 > Ensures printed parts fit and function correctly without assembly issues.
+
+## Critical Design Parameters – Phase 2 Drivers
+
+The following components and their measured dimensions will guide Phase 2 design and analysis. These are the critical geometric and material parameters that will determine tolerances, forces, and clearances in the system.
+
+### Cam
+<p align="center">
+  <img src="figures/Cam_Dimensions.png" width="400">
+</p>
+**Notes:**  
+- Base circle diameter, lobe height, gear length/diameter annotated.  
+- Drives cam timing, rotation speed, and timing chain/gear design.  
+
+### Valves
+<p align="center">
+  <img src="figures/Intake_Valve_Dimensions.png" width="400">
+</p>
+**Notes:**  
+- Intake valve: stem diameter, head diameter, overall length annotated.  
+- Exhaust valve: stem diameter, head diameter, overall length annotated.  
+- Drives lift profile, valve mass/inertia, spring force requirements, seating dynamics, and timing accuracy.  
+
+### Valve Springs
+<p align="center">
+  <img src="figures/Intake_Spring_Dimensions.png" width="400">
+</p>
+**Notes:**  
+- Intake and exhaust springs: free length, solid length, coil diameter, wire diameter annotated.  
+- Drives seating force, valve float margin, and cyclic loading/fatigue calculations.  
+
+### Rocker
+<p align="center">
+  <img src="figures/Rocker_Dimensions.png" width="400">
+</p>
+**Notes:**  
+- Lever lengths and pivot diameters annotated.  
+- Drives valve lift scaling, contact stresses, bending loads, and clearance checks.  
+
+### Summary
+- Dimensions and materials from these components define:  
+  - Camshaft timing and valve lift profiles  
+  - Inertia loads and spring forces for intake/exhaust  
+  - Bearing selection and shaft diameters  
+  - Critical clearances and interference checks  
+
+> These measured parameters form the foundation for Phase 2 design and ensure the system will operate safely and efficiently under high-speed conditions.
