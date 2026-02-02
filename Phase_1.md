@@ -190,44 +190,61 @@ Continuous motion and contact cause material wear, degrading valve profiles and 
 
 The following components and their measured dimensions will guide Phase 2 design and analysis. These are the critical geometric and material parameters that will determine tolerances, forces, and clearances in the system.
 
-### Cam
+---
+
+### Geometry that Controls Motion
+
+#### Cam
 <p align="center">
   <img src="figures/Cam_Dimensions.png" width="400">
 </p>
-**Notes:**  
-- Base circle diameter, lobe height, gear length/diameter annotated.  
-- Drives cam timing, rotation speed, and timing chain/gear design.  
+- Base circle, max lift, lobe ramp shape, and gear length/diameter.  
+- Drives: valve lift curve, peak acceleration, contact loading.  
+- Ensures precise cam timing and correct valve actuation.
 
-### Valves
-<p align="center">
-  <img src="figures/Intake_Valve_Dimensions.png" width="400">
-</p>
-**Notes:**  
-- Intake valve: stem diameter, head diameter, overall length annotated.  
-- Exhaust valve: stem diameter, head diameter, overall length annotated.  
-- Drives lift profile, valve mass/inertia, spring force requirements, seating dynamics, and timing accuracy.  
-
-### Valve Springs
-<p align="center">
-  <img src="figures/Intake_Spring_Dimensions.png" width="400">
-</p>
-**Notes:**  
-- Intake and exhaust springs: free length, solid length, coil diameter, wire diameter annotated.  
-- Drives seating force, valve float margin, and cyclic loading/fatigue calculations.  
-
-### Rocker
+#### Rocker
 <p align="center">
   <img src="figures/Rocker_Dimensions.png" width="400">
 </p>
-**Notes:**  
-- Lever lengths and pivot diameters annotated.  
-- Drives valve lift scaling, contact stresses, bending loads, and clearance checks.  
+- Pivot location, lever arm lengths, pad radii.  
+- Drives: exhaust valve lift scaling, bending stress, tip contact stress.  
+- Ensures alignment and proper force transmission.
 
-### Summary
-- Dimensions and materials from these components define:  
-  - Camshaft timing and valve lift profiles  
-  - Inertia loads and spring forces for intake/exhaust  
-  - Bearing selection and shaft diameters  
-  - Critical clearances and interference checks  
+#### Valves
+<p align="center">
+  <img src="figures/Valve_Dimensions.png" width="400">
+</p>
+- Intake valve: stem diameter, head diameter, overall length.  
+- Exhaust valve: stem diameter, head diameter, overall length.  
+- Drives: packaging, valve mass/inertia, alignment, side loading.  
+- Ensures proper lift, dwell, and seating without interference.
 
-> These measured parameters form the foundation for Phase 2 design and ensure the system will operate safely and efficiently under high-speed conditions.
+---
+
+### Spring and Dynamic Inputs (for Failure Analysis)
+
+#### Valve Springs
+<p align="center">
+  <img src="figures/Valve_Spring_Dimensions.png" width="400">
+</p>
+- Intake and exhaust: free length, solid length, coil diameter, wire diameter.  
+- Drives: seating force, valve-float margin, peak forces on components.  
+- Ensures fatigue resistance and proper operation at high RPMs.
+
+#### Operating Speed and Moving Mass
+- Target cam speed and RPM, follower, rocker, and valve effective mass.  
+- Drives: inertia loads (F=ma), fatigue-like cycling risk.  
+- Needed for proper Phase 2 analysis of forces and clearances.
+
+---
+
+### Print-Driven Design Constraints
+- **Material & process:** resin or filament printing, wall thickness, infill, minimum feature size.  
+  - Drives: part strength, layer-line failure, creep, durability.  
+- **Critical fits & clearances:** valve lash, stem-guide clearance, rocker pivot clearance, cam bore/bearing fits.  
+  - Drives: binding vs. impact loads, timing accuracy, wear rate.  
+- **Packaging & clearance envelope:** full-motion interference check across max lift and rocker sweep.  
+  - Drives: collision prevention, assembly feasibility.  
+
+> These constraints, combined with the measured dimensions above, ensure printed parts fit correctly, function as modeled, and provide all necessary parameters for Phase 2 design.
+
