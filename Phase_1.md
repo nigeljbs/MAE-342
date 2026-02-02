@@ -212,7 +212,7 @@ The following components and their measured dimensions will guide Phase 2 design
 
 #### Valves
 <p align="center">
-  <img src="figures/Valve_Dimensions.png" width="400">
+  <img src="figures/Intake_Valve_Dimensions.png" width="400">
 </p>
 - Intake valve: stem diameter, head diameter, overall length.  
 - Exhaust valve: stem diameter, head diameter, overall length.  
@@ -225,7 +225,7 @@ The following components and their measured dimensions will guide Phase 2 design
 
 #### Valve Springs
 <p align="center">
-  <img src="figures/Valve_Spring_Dimensions.png" width="400">
+  <img src="figures/Intake_Spring_Dimensions.png" width="400">
 </p>
 - Intake and exhaust: free length, solid length, coil diameter, wire diameter.  
 - Drives: seating force, valve-float margin, peak forces on components.  
