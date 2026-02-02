@@ -158,36 +158,6 @@ Continuous motion and contact cause material wear, degrading valve profiles and 
 
 ## Critical Design Parameters
 
-### Geometry that Controls Motion
-- **Cam lobe geometry:** base circle, max lift, duration, ramp shape  
-  - Drives: valve lift curve, peak acceleration, contact loading  
-- **Rocker geometry & ratio:** pivot location, lever arms, pad radii  
-  - Drives: exhaust lift scaling, bending stress, contact stress at tip  
-- **Valve geometry & spacing:** stem diameter, head diameter, valve angles, center spacing  
-  - Drives: packaging, valve mass and inertia, alignment and side loading  
-
-> Ensures proper scale and interference-free fit.
-
-### Spring and Dynamic Inputs (for Failure Analysis)
-- **Spring specs:** rate (k), preload, installed height, max compression, coil-bind margin  
-  - Drives: seating force, valve-float margin, peak forces on 3D printed parts  
-- **Operating speed & moving mass:** target cam speed, RPM, follower, rocker, valve effective mass  
-  - Drives: inertia loads (F=ma), fatigue-like cycling risk  
-
-> Needed for proper analysis of the model.
-
-### Print-Driven Design Constraints
-- **Material & process:** resin or filament printing, wall thickness, infill, minimum feature size  
-  - Drives: part strength, layer-line failure, creep, durability  
-- **Critical fits & clearances:** valve lash, stem-guide clearance, rocker pivot clearance, cam bore/bearing fits  
-  - Drives: binding vs impact loads, timing accuracy, wear rate  
-- **Packaging & clearance envelope:** full-motion interference check across max lift and rocker sweep  
-  - Drives: collision prevention, assembly feasibility  
-
-> Ensures printed parts fit and function correctly without assembly issues.
-
-## Critical Design Parameters – Phase 2 Drivers
-
 The following components and their measured dimensions will guide Phase 2 design and analysis. These are the critical geometric and material parameters that will determine tolerances, forces, and clearances in the system.
 
 ---
