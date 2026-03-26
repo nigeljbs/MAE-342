@@ -9,7 +9,7 @@
 ### Analysis
 Analysis performed in MathCAD
 <p align="center">
-  <img src="figures/Analysis1" width="300">
+  <img src="figures/Analysis1.png" width="300">
 </p>
 
 ---
