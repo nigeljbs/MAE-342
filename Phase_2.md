@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="videos/Valve Train Isometric Video.mp4" width="500">
+  <img src="figures/Motion.gif" width="500">
 </p>
 
 ### Analysis
