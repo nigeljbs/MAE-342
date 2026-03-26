@@ -11,7 +11,14 @@
 </p>
 
 <p align="center">
-  <img src="figures/Motion.gif" width="500">
+  <img src="figures/Assem1.png" width="500">
+</p>
+
+<p align="center">
+  <img src="figures/Assem2.png" width="500">
+</p>
+<p align="center">
+  <img src="figures/Assem3.png" width="500">
 </p>
 
 ### Analysis
