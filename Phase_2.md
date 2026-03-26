@@ -10,6 +10,10 @@
   <img src="figures/Assembly.png" width="500">
 </p>
 
+<p align="center">
+  <img src="videos/Valve Train Isometric Video.mp4" width="500">
+</p>
+
 ### Analysis
 Analysis performed in MathCAD
 <p align="center">
