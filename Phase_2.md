@@ -6,7 +6,9 @@
   The system operates by rotating three separate cam lobes, of which one periodically contacts the rocker arm and the other two contact the intake valve buckets to cause linear motion, as well as a repeated cycle. Once the cam lobes contact either the rocker arm or the valve buckets, the corresponding valves are pushed down, and once the lobe is no longer making contact with the rocker arm, a restoring force provided by a spring is applied to the corresponding valves, which causes them to rise back to the starting position. This process repeats continuously, with valve actuation that is governed by the camshaft geometry to enable controlled airflow into and out of the cylinder. 
 
 ### CAD
-
+<p align="center">
+  <img src="figures/Assembly.png" width="500">
+</p>
 ### Analysis
 Analysis performed in MathCAD
 <p align="center">
