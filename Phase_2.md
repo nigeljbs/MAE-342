@@ -11,5 +11,31 @@ Analysis performed in MathCAD
 <p align="center">
   <img src="figures/Analysis1.png" width="600">
 </p>
-
+<p align="center">
+  <img src="figures/Analysis2.png" width="600">
+</p>
+<p align="center">
+  <img src="figures/Analysis3.png" width="600">
+</p>
+<p align="center">
+  <img src="figures/Analysis4.png" width="600">
+</p>
+<p align="center">
+  <img src="figures/Analysis5.png" width="600">
+</p>
+<p align="center">
+  <img src="figures/Analysis6.png" width="600">
+</p>
+<p align="center">
+  <img src="figures/Analysis7.png" width="600">
+</p>
+<p align="center">
+  <img src="figures/Analysis8.png" width="600">
+</p>
+<p align="center">
+  <img src="figures/Analysis9.png" width="600">
+</p>
+<p align="center">
+  <img src="figures/Analysis10.png" width="600">
+</p>
 ---
