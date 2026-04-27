@@ -2,5 +2,5 @@
 
 
 <p align="center">
-  <img src="figures/3DP_Head.HEIC" width="500">
+  <img src="figures/3DP_Head.jpg" width="500">
 </p>
