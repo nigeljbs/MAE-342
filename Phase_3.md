@@ -10,3 +10,22 @@
 <p align="center">
   <img src="figures/3DP_Head.jpg" width="400">
 </p>
+
+## Assembly Procedure 
+  The assembly process was completed as follows. The valves were first positioned within the cylinder head, followed by the installation of the valve buckets and springs. The rocker arm and roller were then mounted using pin connections. Finally, the camshaft was positioned in bearings, then the remaining structural components were secured using threaded fasteners. The modular design allowed certain components to be assembled into subassemblies before final integration, thereby reducing overall assembly complexity.
+  
+<p align="center">
+  <img src="figures/3DP_Exploded.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="figures/3DP_CamAssy.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="figures/3DP_Valves.jpg" width="400">
+</p>
+
+<p align="center">
+  <img src="figures/3DP_NoCam.jpg" width="400">
+</p>
