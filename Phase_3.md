@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="figures/3DP_TopDown.jpg" width="500"> <img src="figures/Assembly.png" width="500"> <img src="figures/Cylinder_Head.png" width="500">
+  <img src="figures/Cylinder_Head.png" width="400"> <img src="figures/Assembly.png" width="400"> <img src="figures/3DP_Head.jpg" width="400"> 
 </p>
 
 ## Fabrication Details
